@@ -7,6 +7,12 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+
+<a href="https://medium.com/@contato.marcosrf/como-implementar-n%C3%ADveis-de-acesso-no-seu-sistema-laravel-laravel-10-ca73b1ffa52d">
+como foi implementado o controle de niveis de acesso no aplicação
+</a>
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:

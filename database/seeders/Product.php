@@ -86,7 +86,9 @@ class Product extends Seeder
         ];
 
         foreach ($products as $product) {
-            Model::create($product);
+            if (!Model::where('name', $product['name'])->exists()) {
+                Model::create($product);
+            }
         }
     }
 }

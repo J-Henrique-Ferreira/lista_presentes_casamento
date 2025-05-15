@@ -21,7 +21,9 @@ class Category extends Seeder
         ];
 
         foreach ($categories as $category) {
-            Model::create($category);
+            if (!Model::where('name', $category['name'])->exists()) {
+                Model::create($category);
+            }
         }
     }
 }

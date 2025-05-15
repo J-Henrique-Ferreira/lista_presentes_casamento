@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('category', function (Blueprint $table) {
             $table->id()->autoIncrement()->nullable(false);
-            $table->string('name')->nullable(false);
+            $table->string('name')->nullable(false)->unique();
             $table->string('description')->nullable(true);
 
             $table->timestamps();
