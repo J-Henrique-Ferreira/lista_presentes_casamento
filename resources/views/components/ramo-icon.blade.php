@@ -1,0 +1,1 @@
+<img src="{{ asset('images/ramo-icon.svg') }}" alt="Folha" class="mx-auto h-24 rotate-[-111deg]">

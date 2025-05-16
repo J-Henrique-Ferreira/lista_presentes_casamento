@@ -29,7 +29,7 @@ class AppServiceProvider extends ServiceProvider
         });
 
         Gate::define('default', function (User $user) {
-            return $user->hasPermission('default');
+            return $user->hasPermission('default') || $user->hasPermission('admin');
         });
     }
 }
